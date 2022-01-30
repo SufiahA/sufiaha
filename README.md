@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hello! Check out my portfolio here: [Portfolio](https://sufiaha.github.io/sufiaha/)
 
 <!--
 **SufiahA/sufiaha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
