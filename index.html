@@ -8,139 +8,153 @@
     </head>
 
     <body>
-        <header>
-            <h1>Sufiah Ahmad</h1>
-            <div>
-                <p>Full-Stack Software Engineer. Nice to meet you!</p>
-                <div>Insert icons and links in here</div>
-            </div>
-        </header>
-        <div>Checkboxes for Technologies, Academic, Teaching, Japanese</div>
-        <section>
-            <div class="skills">
-                <h2>Technical Skills</h2>
-                <div class="separate">
-                    <div>Programming Languages:</div><div>Java, SWL, Python, Gitbash, JavaScript, HTML, CSS, C++, C#</div>
+        <div class="wrapper">
+            <header>
+                <img src="imgs/background.png" alt="background image" class="background">
+                <img src="imgs/foreground.png" alt="foreground image" class="foreground">
+                <h1 class="title">Sufiah Ahmad</h1>
+                <div>
+                    <p>Full-Stack Software Engineer. Nice to meet you!</p>
+                    <div>Insert icons and links in here</div>
                 </div>
-                <div class="separate">
-                    <div>Operating Systems:</div><div>Windows, Linux</div>
-                </div>
-                <div class="separate">
-                    <div>IDEs:</div><div>Visual Studio Code, CLion, jGrasp, Eclipse, NetBeans</div>
-                </div>
-                <div class="separate">
-                    <div>Languages:</div><div>English, Japanese (JLPT N2), Malay, Urdu/Hindi</div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="experience">
-                <h2>Work Experience</h2>
-                <div class="entry">
+                <div>Checkboxes for Technologies, Academic, Teaching, Japanese</div>
+            </header>
+            
+            <section class="skills">
+                <div class="skills">
+                    <h2>Technical Skills</h2>
                     <div class="separate">
-                        <div class="position">Software Engineer, PEGA Certified System Architect</div>
-                        <div class="date">June 2021 - January 2022</div>
+                        <div>Programming Languages:</div><div>Java, SWL, Python, Gitbash, JavaScript, HTML, CSS, C++, C#</div>
                     </div>
-                    <div class="location">Revature, remote work</div>
+                    <div class="separate">
+                        <div>Operating Systems:</div><div>Windows, Linux</div>
+                    </div>
+                    <div class="separate">
+                        <div>IDEs:</div><div>Visual Studio Code, CLion, jGrasp, Eclipse, NetBeans</div>
+                    </div>
+                    <div class="separate">
+                        <div>Languages:</div><div>English, Japanese (JLPT N2), Malay, Urdu/Hindi</div>
+                    </div>
+                </div>
+            </section>
+            <section class="experience">
+                <div class="experience">
+                    <h2>Work Experience</h2>
+                    <div class="entry">
+                        <div class="separate">
+                            <div class="position">Software Engineer, PEGA Certified System Architect</div>
+                            <div class="date">June 2021 - January 2022</div>
+                        </div>
+                        <div class="location">Revature, remote work</div>
+                        <ul>
+                            <li>Underwent 3 months of rigorous accelerated Java 8, OOP, Git, and PEGA training.</li>
+                            <li>Earned certification for PEGA Business Process Management Software.</li>
+                            <li>Prepared Design Documentation and Use Case Dependencies for the client.</li>
+                            <li>Created and updated a PostgreSQL 10 Database.</li>
+                        </ul>
+                    </div>
+                    <div class="entry">
+                        <div class="separate">
+                            <div class="position">Web Developer for the UW 2020 B.A. Graduation Exhibit</div>
+                            <div class="date">May 2020 - June 2020</div>
+                        </div>
+                        <div class="location"><a href="https://2020.uwbaartexhibition.com/">https://2020.uwbaartexhibition.com/</a></div>
+                        <ul>
+                            <li>Build and structure webpage templates with HTML and PHP.</li>
+                            <li>Utilize PHP to interact with WordPress backend.</li>
+                            <li>Gain in-depth knowledge of WordPress's Content Management System (CMS).</li>
+                            <li>Applied jQuery and JavaScript to add dropdown sections and display student artwork when hovered.</li>
+                            <li>Implemented CSS to create a visually pleasing website with Responsive Design.</li>
+                        </ul>
+                    </div>
+                    <div class="entry teaching">
+                        <div class="separate">
+                            <div class="position">Middle School Computer Science Instructor</div>
+                            <div class="date">February 2021 - June 2021</div>
+                        </div>
+                        <div class="location">Medina Academy, Redmond</div>
+                        <ul>
+                            <li>Introduce students to foundational computer science principles such as variables, functions, and loops using JavaScript.</li>
+                            <li>Teach students to basics of Web Development using HTML and CSS using in-class exercises.</li>
+                            <li>Communicate with the school principal and parents to explain the current progress of each student.</li>
+                            <li>Organize lesson plans to deliver personalized material for each class.</li>
+                            <li>Evaluate student work and provide valuable feedback that encourages students to love computer science.</li>
+                        </ul>
+                    </div>
+                    <div class="entry">
+                        <div class="separate">
+                            <div class="position">Senior Quality Control & Distribution Lead</div>
+                            <div class="date">September 2016 - June 2021</div>
+                        </div>
+                        <div class="location">University of Washinton Disability Resources for Students</div>
+                        <ul>
+                            <li>Distribute accessible electronic files, embossed braille, and printed materials to students with disabilities.</li>
+                            <li>Supervise a team of five Quality Control Leads that regulate and maintain the quality of converted materials.</li>
+                            <li>Design new measures for training, as well as innovative collaboration between other Lead positions.</li>
+                            <li>Worked with a team that has converted 491,410 pages for 442 books taking 2,417 hours.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="projects">
+                <div class="projects">
+                    <h2>Projects</h2>
+                    <div class="entry academic">
+                        <div class="separate">
+                            <div class="project">Machine Learning Module for EMG Input (C#, Python)</div>
+                            <div class="class">Faculty-Guided Research (Capstone)</div>
+                        </div>
+                        <ul>
+                            <li>Designed a Machine Learning Module that reads raw EMG data through Serial Ports.</li>
+                            <li>Instantiate and load a TensorFlow Neural Network that was trained with real-time training data through the Supervised Learning Algorithm.</li>
+                            <li>Create a ZeroMQ Server to implement a Request-Response Architecture to communicate between Unity and TensorFlow in Python.</li>
+                        </ul>
+                    </div>
+                    <div class="entry academic">
+                        <div class="separate">
+                            <div class="project">Motorola 68000 Disassembler (68K Assembly Language)</div>
+                            <div class="class">Hardware and System Organization</div>
+                        </div>
+                        <ul>
+                            <li>Collaborate with a team of two other students using BitBucket to simultaneously write code.</li>
+                            <li>Identify and analyze the bit information inside of hexadecimal instructions to determine operation words.</li>
+                            <li>Reused code to reduce redundancy, and improve readability while heavily commenting to ensure team-wide understanding of the program-flow.</li>
+                        </ul>
+                    </div>
+                    <div class="entry academic">
+                        <div class="separate">
+                            <div class="project">Bank Management Software (C++)</div>
+                            <div class="class">Data Structures and Algorithms I</div>
+                        </div>
+                        <ul>
+                            <li>Implemented Object Oriented Programming principles to keep track of client information such as name, user ID, and 10 different types of user accounts.</li>
+                            <li>Encapsulation within the software allowed account information to be protected from direct handling by client.</li>
+                            <li>Ability to read in instructions from multiple external files to process commands.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="certifications">
+                <div class="certifications">
+                    <h2>Certifications</h2>
+                </div>
+            </section>
+            <section class="other">
+                <div class="other">
+                    <h2>Other Experiences</h2>
+                </div>
+                <div class="entry other">
+                    <div class="separate">
+                        <div class="position">UWB MakerSpace Volunteer</div>
+                        <div class="date">April 2018 - June 2018</div>
+                    </div>
                     <ul>
-                        <li>Underwent 3 months of rigorous accelerated Java 8, OOP, Git, and PEGA training.</li>
-                        <li>Earned certification for PEGA Business Process Management Software.</li>
-                        <li>Prepared Design Documentation and Use Case Dependencies for the client.</li>
-                        <li>Created and updated a PostgreSQL 10 Database.</li>
+                        <li>Help encourage student engagement with Virtual Reality through updating and re-establishing the VR Station with an Oculus Rift for student use.</li>
+                        <li>Research into software to create Virtual Reality programs such as Unity to provide students with a VR creation environment.</li>
                     </ul>
                 </div>
-                <div class="entry">
-                    <div class="separate">
-                        <div class="position">Web Developer for the UW 2020 B.A. Graduation Exhibit</div>
-                        <div class="date">May 2020 - June 2020</div>
-                    </div>
-                    <div class="location"><a href="https://2020.uwbaartexhibition.com/">https://2020.uwbaartexhibition.com/</a></div>
-                    <ul>
-                        <li>Build and structure webpage templates with HTML and PHP.</li>
-                        <li>Utilize PHP to interact with WordPress backend.</li>
-                        <li>Gain in-depth knowledge of WordPress's Content Management System (CMS).</li>
-                        <li>Applied jQuery and JavaScript to add dropdown sections and display student artwork when hovered.</li>
-                        <li>Implemented CSS to create a visually pleasing website with Responsive Design.</li>
-                    </ul>
-                </div>
-                <div class="entry teaching">
-                    <div class="separate">
-                        <div class="position">Middle School Computer Science Instructor</div>
-                        <div class="date">February 2021 - June 2021</div>
-                    </div>
-                    <div class="location">Medina Academy, Redmond</div>
-                    <ul>
-                        <li>Introduce students to foundational computer science principles such as variables, functions, and loops using JavaScript.</li>
-                        <li>Teach students to basics of Web Development using HTML and CSS using in-class exercises.</li>
-                        <li>Communicate with the school principal and parents to explain the current progress of each student.</li>
-                        <li>Organize lesson plans to deliver personalized material for each class.</li>
-                        <li>Evaluate student work and provide valuable feedback that encourages students to love computer science.</li>
-                    </ul>
-                </div>
-                <div class="entry">
-                    <div class="separate">
-                        <div class="position">Senior Quality Control & Distribution Lead</div>
-                        <div class="date">September 2016 - June 2021</div>
-                    </div>
-                    <div class="location">University of Washinton Disability Resources for Students</div>
-                    <ul>
-                        <li>Distribute accessible electronic files, embossed braille, and printed materials to students with disabilities.</li>
-                        <li>Supervise a team of five Quality Control Leads that regulate and maintain the quality of converted materials.</li>
-                        <li>Design new measures for training, as well as innovative collaboration between other Lead positions.</li>
-                        <li>Worked with a team that has converted 491,410 pages for 442 books taking 2,417 hours.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="projects">
-                <h2>Projects</h2>
-                <div class="entry academic">
-                    <div class="separate">
-                        <div class="project">Machine Learning Module for EMG Input (C#, Python)</div>
-                        <div class="class">Faculty-Guided Research (Capstone)</div>
-                    </div>
-                    <ul>
-                        <li>Designed a Machine Learning Module that reads raw EMG data through Serial Ports.</li>
-                        <li>Instantiate and load a TensorFlow Neural Network that was trained with real-time training data through the Supervised Learning Algorithm.</li>
-                        <li>Create a ZeroMQ Server to implement a Request-Response Architecture to communicate between Unity and TensorFlow in Python.</li>
-                    </ul>
-                </div>
-                <div class="entry academic">
-                    <div class="separate">
-                        <div class="project">Motorola 68000 Disassembler (68K Assembly Language)</div>
-                        <div class="class">Hardware and System Organization</div>
-                    </div>
-                    <ul>
-                        <li>Collaborate with a team of two other students using BitBucket to simultaneously write code.</li>
-                        <li>Identify and analyze the bit information inside of hexadecimal instructions to determine operation words.</li>
-                        <li>Reused code to reduce redundancy, and improve readability while heavily commenting to ensure team-wide understanding of the program-flow.</li>
-                    </ul>
-                </div>
-                <div class="entry academic">
-                    <div class="separate">
-                        <div class="project">Bank Management Software (C++)</div>
-                        <div class="class">Data Structures and Algorithms I</div>
-                    </div>
-                    <ul>
-                        <li>Implemented Object Oriented Programming principles to keep track of client information such as name, user ID, and 10 different types of user accounts.</li>
-                        <li>Encapsulation within the software allowed account information to be protected from direct handling by client.</li>
-                        <li>Ability to read in instructions from multiple external files to process commands.</li>
-                    </ul>
-                </div>
-                
-            </div>
-        </section>
-        <section>
-            <div class="certifications">
-                <h2>Certifications</h2>
-            </div>
-        </section>
-        <section>
-            <div class="other">
-                <h2>Other Experiences</h2>
-            </div>
-        </section>
+            </section>
+        </div>
     </body>
 
 </html>
